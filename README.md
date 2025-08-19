@@ -85,6 +85,38 @@ environments {
 ./gradlew clean test aggregate
 ```
 ---
+# 🚀 Integración Continua con GitHub Actions
+
+Este proyecto está integrado con **GitHub Actions** para ejecutar automáticamente las pruebas de Serenity BDD en cada **push** o **pull request** a la rama `main`.
+
+## 📄 Pipeline
+
+El pipeline se encuentra definido en: .github/workflows/serenity-tests.yml
+
+---
+
+## ▶️ Ejecución
+
+Cada vez que se dispara el workflow:
+
+1. Se compilan y ejecutan las pruebas con Gradle (`./gradlew clean test aggregate`).
+2. Se generan los reportes de Serenity en la carpeta `target/site/serenity`.
+3. Los reportes se publican como **Artifacts** en la ejecución de Actions.
+
+## 📊 Acceso a los reportes
+
+- Ir a la pestaña **Actions** de este repositorio.
+- Seleccionar la última ejecución del pipeline **Run Serenity API Tests**.
+- Descargar el artefacto **`serenity-reports`**.
+- Abrir el archivo `index.html` dentro del ZIP descargado.
+
+## ✅ Estado del pipeline
+
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/FranciscoJL99/api-wompi-reto/serenity-tests.yml?branch=main)
+
+---
+
+---
 # 📊 Reporte Serenity
 
 Serenity genera automáticamente un reporte visual con:
