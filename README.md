@@ -7,6 +7,7 @@ El objetivo es validar la creación de transacciones vía API con diferentes mé
 # 👨‍💻 Autor
 
 Este proyecto fue desarrollado por **Francisco Leon Cordero** 
+
 Fecha de creación: **Agosto 2025**
 
 ---
