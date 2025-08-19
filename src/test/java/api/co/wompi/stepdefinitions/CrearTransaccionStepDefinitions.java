@@ -8,9 +8,7 @@ import api.co.wompi.tasks.CrearTransaccion;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
-import net.serenitybdd.model.environment.ConfiguredEnvironment;
 import net.serenitybdd.screenplay.actors.OnStage;
-import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
 
 import static api.co.wompi.utils.Constantes.MONTO_INVALIDO;
 import static api.co.wompi.utils.Constantes.TELEFONO;
