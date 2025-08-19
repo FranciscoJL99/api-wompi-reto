@@ -1,0 +1,76 @@
+# ============================================
+# Java / Gradle
+# ============================================
+
+# Gradle cache & build
+.gradle/
+build/
+
+# Maven target (por si acaso alguien corre mvn)
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# ============================================
+# Serenity / Cucumber Reports
+# ============================================
+
+# Serenity output
+serenity/
+site/
+serenity-reports/
+target/site/
+
+# Cucumber report JSONs
+*.json
+cucumber-report*.json
+
+# Screenshots
+*.png
+screenshots/
+
+# ============================================
+# OS / Misc
+# ============================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================================
+# Others
+# ============================================
+
+# Local environment configs
+*.local
+*.env
